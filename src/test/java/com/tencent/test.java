@@ -19,7 +19,7 @@ public class test {
     }
 
      @Test
-    public void test1(){
+    public void test2(){
         Integer num = operation(111,x -> x * x);
         System.out.println(num);
     
