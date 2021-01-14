@@ -18,8 +18,15 @@ public class test {
         System.out.println(num);
     }
 
+     @Test
+    public void test1(){
+        Integer num = operation(111,x -> x * x);
+        System.out.println(num);
+    
     public Integer operation(Integer num,MyFun mf){
         return mf.getValue(num);
+    }
+   
     }
 
 }
